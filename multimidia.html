@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tudo sobre Google Glass</title>
+  <link rel="stylesheet" href="css/estilo.css" />
+  <link rel="stylesheet" href="css/media.css" />
+</head>
+<script language="javascript" src="javascript/funcoes.js"></script>
+
+<body>
+  <div id=interface>
+    <header id="cabecalho">
+      <hgroup>
+        <h1>Google Glass</h1>
+        <h2>A revolução do Google está chegando</h2>
+      </hgroup>
+
+      <img id="icone" src="imagens/multimidia.png">
+      <nav id="menu">
+        <h1>Menu Principal</h1>
+        <ul type="disc">
+          <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a
+              href="index.html">Home</a></li>
+          <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a
+              href="specs.html">Especificações</a></li>
+          <li onmouseover="mudaFoto('imagens/fotos.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a
+              href="fotos.html">Fotos</a></li>
+          <li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a
+              href="multimidia.html">Multimídia</a></li>
+          <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/multimidia')"><a
+              href="fale-conosco.html">Fale conosco</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="corpo-full">
+      <article id="noticia-principal">
+        <header id="cabecalho-artigo">
+          <hgroup>
+            <h3>Glass > Multimídia</h3>
+            <h1>Sons e Vídeos</h1>
+            <h2>por Gustavo Guanabara</h2>
+            <h3 class="direita">Atualizado em 15/Outubro/2020</h3>
+          </hgroup>
+        </header>
+
+        <div id="tv-radio">
+          <audio id="musica" controls="controls">
+            <source src="media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg" />
+            <source src="media/2009-lovers-carvings-bibio.ogg" type="audio/x-aac" />
+            <source src="media/2009-lovers-carvings-bibio.aac" type="audio/mpeg" />
+            Desculpe, mas não vou possível carregar o áudio!
+          </audio>
+
+          <video id="filme" controls="controls" poster="imagens/video-mini03.jpg">
+            <source src="media/getting-started.mp4" type="video/mp4" />
+            <source src="media/getting-started.webm" type="video/webm" />
+            <source src="media/getting-started.ogv" type="video/ogv" />
+            Desculpe, mas não vou possível carregar o vídeo!
+          </video>
+        </div>
+
+        <!-- Colocando vídeo do YouTube.
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4EvNxWhskf8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        -->
+
+        <div>
+          <footer id="rodape">
+            <p>
+              Copyright &copy; 2020 - by Bruno Rodrigues - Ref. Prof. Guanabara
+              <br /><a href="http://faceboook.com/cursosemvideo" target="_blank">Facebook</a> | <a
+                href="http://twitter.com/cursosemvideo" target="_blank">Twitter</a>
+            </p>
+          </footer>
+
+        </div>
+</body>
+
+</html>
