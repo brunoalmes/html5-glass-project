@@ -15,6 +15,6 @@
 
 ***Obrigado por terem visitado meu perfil! Acessem também meu perfil no LinkedIn:***
 
-<https://github.com/brunoalmes>
+<https://www.linkedin.com/in/bruno-rodrigues-a0a6711b6/>
 
 ![Pantera Negra](https://github.com/brunoalmes/imagens/blob/main/wakandaprasempre.JPG)
